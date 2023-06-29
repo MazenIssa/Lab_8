@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- First icon item -->
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/crab11"
+        android:title="Choice 1"
+        app:showAsAction="always"
+        app:orderInCategory="1" />
+
+    <!-- Second icon item -->
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/chicken10"
+        android:title="Choice 2"
+        app:showAsAction="ifRoom"
+        app:orderInCategory="2" />
+
+    <!-- Text item in overflow menu -->
+    <item
+        android:id="@+id/action_overflow"
+        android:title="Overflow"
+        app:showAsAction="never" />
+
+</menu>
